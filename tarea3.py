@@ -1,4 +1,4 @@
-#Devuelve el numero al revez
+#Devuelve el numero al reves
 def reversa ( numero ):
   ret = 0
   while numero != 0 :
@@ -43,7 +43,7 @@ def elimina_digito (digito, numero) :
   cont = 0 
   digitos = contar_digitos(numero)
   ret = 0
-  while cont != digitos :
+  while cont != digitos :   
     caracter = numero % 10 
     numero = numero // 10
     if caracter != digito :
