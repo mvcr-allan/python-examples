@@ -1,3 +1,4 @@
+#Devuelve el numero al revez
 def reversa ( numero ):
   ret = 0
   while numero != 0 :
@@ -7,7 +8,7 @@ def reversa ( numero ):
    
   return ret    
 
-
+#Cuenta los digitos de un numero
 def contar_digitos(numero):
       
   if isinstance (numero, int)==False:
@@ -52,4 +53,4 @@ def elimina_digito (digito, numero) :
 
   #Si el resultado queda sin dígitos debe retornar el valor booleano False.
 
-print(elimina_digito(2,3452))
+print(elimina_digito(3,3452))
